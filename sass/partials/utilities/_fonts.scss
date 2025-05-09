@@ -1,0 +1,101 @@
+@use "../utilities/maps" as *;
+.titillium-web-extralight {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.titillium-web-light {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.titillium-web-regular {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.titillium-web-semibold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.titillium-web-bold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.titillium-web-black {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.titillium-web-extralight-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.titillium-web-light-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.titillium-web-regular-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.titillium-web-semibold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.titillium-web-bold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+  
+h1,h2,h3,h4,h5,h6{
+  font-family: map-get($font-styles,titulos);
+  font-size: map-get($font-sizes,l);
+  margin-bottom: 0;
+  
+}
+h1{
+    font-family: Jost;
+    font-weight: 400;
+    font-size: map-get($font-sizes,xl);
+    background-color: #fff;
+    color: #111;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+h2{
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #fff;
+}
+h3{
+    font-size: map-get($font-sizes,m);  
+    font-weight: 600;
+    color: antiquewhite;
+}
+h4{
+    font-size: map-get($font-sizes,m);
+    font-weight: 600;
+    color: antiquewhite;
+}
+
+.atrib{
+    font-size: 10px;
+}

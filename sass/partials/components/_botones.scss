@@ -1,0 +1,110 @@
+@use "../utilities/maps" as *;
+
+/*BOTONES y ENLACES*/
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-general {
+    background: linear-gradient(90deg, lighten(map-get($colors, primario), 10%), darken(map-get($colors, primario), 10%));
+    color: #ffffff;
+    border: 1px solid #dadada;
+    border-radius: 30px;
+    padding: 8px 24px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-general:hover {
+    background: linear-gradient(90deg, darken(map-get($colors, primario), 10%), lighten(map-get($colors, primario), 10%));
+    color: #ffffff;
+    border-color: #c9a66b;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px) scale(1.05);
+}
+
+.categoriaBoton{
+    @extend.btn-general;
+    border-radius: 0;
+    margin: 4px 0;
+    padding: 10px 0;
+    background: linear-gradient(80deg, lighten(#eae9e9, 0%), lighten(map-get($colors, primario), 80%));
+    &:hover{
+        background: linear-gradient(to top, lighten(#e8e7e7, 0%), lighten(map-get($colors, primario), 80%));        transform: none;
+    }
+    h3{
+        color: #111;
+    }
+}
+
+.icono{
+    a{
+        padding: 5px;
+        text-decoration: none;
+        opacity: 0.9;
+        p{
+            margin-bottom: 0;
+        }
+        img{
+            max-width: 26px;
+            &:hover{
+                transform: scale(1.1);
+                transition: transform 0.2s ease-in-out;
+                opacity: 1;
+            }
+        }
+    }        
+
+}
+
+.link-whatsapp{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+        img{
+            width: 50px;
+        }
+        &:hover{
+            transform: scale(1.2);
+            transition: transform 0.3s ease-in-out;
+        }
+}
+
+.card{
+    background-color: map-get($colors, terciario);
+    padding: 5px;
+    border-radius: 0px;
+    margin: 10px 2px;
+    h4{
+        color: map-get($colors, primario );
+        padding: 4px 0;
+    }
+    &:hover{
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        transform: translateY(-1px) scale(1.02);
+        color: map-get($colors, primario );
+        transition: 0.2s ease-in-out;
+    }
+    
+}
+
+.trabaja-con-nosotros {
+    @extend .btn-general;
+    background: #ffffff;
+    color: map-get($colors, negro);
+    border: 1px solid map-get($colors, negro);
+    border-radius: 0px;
+    font-size: map-get($font-sizes,s);
+    &:hover {
+        background: linear-gradient(to top, lighten(#e8e7e7, 0%), lighten(map-get($colors, primario), 80%));        transform: none;
+        color: #111;
+        border-color: map-get($colors, primario);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+}

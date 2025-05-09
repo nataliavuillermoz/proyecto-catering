@@ -1,0 +1,45 @@
+@use "../utilities/maps" as *;
+
+/*MAIN*/
+
+body{
+    background-image: url("../assets/background-pattern.jpg");
+    background-repeat: repeat;
+    text-align: center;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: map-get($font-styles,parrafos);
+    font-size: map-get($font-sizes,m);
+}
+
+section{
+    margin: 30px 0;
+    color:map-get($colors, blanco);
+    background-color: rgba(256,256,256,0.2);
+    padding: 40px;
+    border: 3px solid transparent; // Necesario para que el degradado funcione
+    border-image: linear-gradient(to right, lighten(map-get($colors, primario), 10%), darken(map-get($colors, primario), 10%)) 1;
+
+    
+}
+
+/*PRODUCTO*/
+
+
+header{
+    background-color: rgba(256,256,256,0.1);
+}
+
+.numero-whatsapp{
+    p{
+        margin-bottom: 0;
+    }
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-inner{
+    opacity: 0.8;
+}

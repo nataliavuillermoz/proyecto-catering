@@ -1,0 +1,389 @@
+/*BASE*/
+/*MAIN*/
+body {
+  background-image: url("../assets/background-pattern.jpg");
+  background-repeat: repeat;
+  text-align: center;
+  background-attachment: fixed;
+  color: #fff;
+  font-family: "Dosis";
+  font-size: 1.1rem;
+}
+
+section {
+  margin: 30px 0;
+  color: #e4d2ad;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 40px;
+  border: 3px solid transparent;
+  border-image: linear-gradient(to right, rgb(223.4285714286, 144.5, 65.5714285714), rgb(160.2857142857, 93.5, 26.7142857143)) 1;
+}
+
+/*PRODUCTO*/
+header {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.numero-whatsapp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.numero-whatsapp p {
+  margin-bottom: 0;
+}
+
+.carousel-inner {
+  opacity: 0.8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+/*UTILITIES*/
+.titillium-web-extralight {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.titillium-web-light {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.titillium-web-regular {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.titillium-web-semibold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.titillium-web-bold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.titillium-web-black {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.titillium-web-extralight-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.titillium-web-light-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.titillium-web-regular-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.titillium-web-semibold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.titillium-web-bold-italic {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Titillium Web";
+  font-size: 1.7rem;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 2rem;
+  background-color: #fff;
+  color: #111;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #fff;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: antiquewhite;
+}
+
+h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: antiquewhite;
+}
+
+.atrib {
+  font-size: 10px;
+}
+
+/*COMPONENTS*/
+/*HEADER*/
+.numero-whatsapp p {
+  display: inline;
+}
+
+.icono img {
+  width: 34px;
+}
+
+.logo img {
+  max-width: 200px;
+  padding: 10px 0;
+}
+
+.logo-mobile img {
+  max-width: 120px;
+}
+
+.form-group {
+  text-align: left;
+}
+.form-group label {
+  margin-left: 5px;
+}
+.form-group input::placeholder {
+  color: gray;
+  opacity: 0.7;
+}
+
+.datos-contacto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.datos-contacto img {
+  width: 24px;
+}
+.datos-contacto p {
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+
+.mapa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+}
+
+/*NAVBAR*/
+.navbar-edit {
+  background: linear-gradient(90deg, rgb(223.4285714286, 144.5, 65.5714285714), rgb(160.2857142857, 93.5, 26.7142857143));
+  color: white;
+  padding: 5px 2x;
+  font-family: "Segoe UI", sans-serif;
+  box-shadow: 0 2px 6px rgba(50, 50, 50, 0.15);
+}
+.navbar-edit .nav-link {
+  font-size: 0.9rem;
+  padding: 0;
+  color: #111;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out, border-bottom 0.2s;
+  opacity: 0.8;
+}
+.navbar-edit .nav-link:hover {
+  color: #ffe5b4;
+  opacity: 1;
+}
+.navbar-edit .nav-link.active {
+  color: #fff;
+  opacity: 1;
+}
+
+/*BOTONES y ENLACES*/
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-general, .trabaja-con-nosotros, .categoriaBoton {
+  background: linear-gradient(90deg, rgb(223.4285714286, 144.5, 65.5714285714), rgb(160.2857142857, 93.5, 26.7142857143));
+  color: #ffffff;
+  border: 1px solid #dadada;
+  border-radius: 30px;
+  padding: 8px 24px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-general:hover, .trabaja-con-nosotros:hover, .categoriaBoton:hover {
+  background: linear-gradient(90deg, rgb(160.2857142857, 93.5, 26.7142857143), rgb(223.4285714286, 144.5, 65.5714285714));
+  color: #ffffff;
+  border-color: #c9a66b;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px) scale(1.05);
+}
+
+.categoriaBoton {
+  border-radius: 0;
+  margin: 4px 0;
+  padding: 10px 0;
+  background: linear-gradient(80deg, #eae9e9, white);
+}
+.categoriaBoton:hover {
+  background: linear-gradient(to top, #e8e7e7, white);
+  transform: none;
+}
+.categoriaBoton h3 {
+  color: #111;
+}
+
+.icono a {
+  padding: 5px;
+  text-decoration: none;
+  opacity: 0.9;
+}
+.icono a p {
+  margin-bottom: 0;
+}
+.icono a img {
+  max-width: 26px;
+}
+.icono a img:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.link-whatsapp {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+.link-whatsapp img {
+  width: 50px;
+}
+.link-whatsapp:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card {
+  background-color: #e4d2ad;
+  padding: 5px;
+  border-radius: 0px;
+  margin: 10px 2px;
+}
+.card h4 {
+  color: #cc7722;
+  padding: 4px 0;
+}
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-1px) scale(1.02);
+  color: #cc7722;
+  transition: 0.2s ease-in-out;
+}
+
+.trabaja-con-nosotros {
+  background: #ffffff;
+  color: #111;
+  border: 1px solid #111;
+  border-radius: 0px;
+  font-size: 0.9rem;
+}
+.trabaja-con-nosotros:hover {
+  background: linear-gradient(to top, #e8e7e7, white);
+  transform: none;
+  color: #111;
+  border-color: #cc7722;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.modal .modal-content {
+  border-radius: 0px;
+}
+.modal .head-modal {
+  background-color: #cc7722;
+}
+.modal p {
+  text-align: left;
+  color: black;
+  margin-bottom: 0;
+}
+.modal h3 {
+  font-weight: 400;
+}
+.modal .imagen-modal {
+  border: 1px solid #111;
+  padding: 0;
+}
+.modal .imagen-modal img {
+  width: 100%;
+  height: 100%;
+}
+
+/*FOOTER*/
+footer {
+  color: #111;
+}
+
+.footer-superior {
+  background: linear-gradient(to bottom, #cc7722 0%, #b06c1d 100%);
+  color: white;
+  padding: 30px 5x;
+  font-family: "Segoe UI", sans-serif;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 20px 10px;
+}
+
+.footer-inferior {
+  background-color: #f5f1e1;
+  padding: 20px 0;
+}
+.footer-inferior img {
+  opacity: 0.8;
+}
+
+.copyright {
+  background-color: rgb(0, 0, 0);
+}
+.copyright p {
+  margin: 0;
+  color: #fff;
+  font-size: 0.6rem;
+  padding: 2px 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

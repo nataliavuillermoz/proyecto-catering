@@ -1,0 +1,33 @@
+.form-group{
+    text-align: left;
+    label{
+        margin-left: 5px;
+    }
+    input::placeholder{
+        color: gray;
+        opacity: 0.7;
+    }
+    
+}
+
+.datos-contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    img{
+        width: 24px;
+    }
+    p{
+        margin-left: 5px;
+        margin-bottom: 0;
+    }
+
+}
+
+.mapa{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+}
