@@ -50,7 +50,7 @@
         <nav class="navbar navbar-edit navbar-expand-lg">
             <div class="container-fluid">
                 <a href="../index.html" class="d-block d-md-none logo-mobile">
-                    <img src="../assets/logo-modelo-negro.png" alt="Logo Imperial Catering y Eventos">
+                    <img src="../assets/logo-modelo-blanco.png" alt="Logo Imperial Catering y Eventos">
                 </a>
  
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,7 +84,7 @@
     <main>
       <section class="container presupuesto-personalizado">
         <h2>PRESUPUESTO PERSONALIZADO</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam reiciendis voluptate magni debitis perspiciatis vel, odit tempora aspernatur eveniet in, a ut vitae quas dicta exercitationem nulla ex fuga nihil!</p>
+        <p>Completá los detalles de tu evento y en breve te contactaremos con un presupuesto personalizado.</p>
 
         <form class="row">
             <div class="form-group col-12">
@@ -93,23 +93,24 @@
             </div>
             <div class="form-group col-6">
               <label for="InputMail">Mail</label>
-              <input type="text" class="form-control" id="InputMail" placeholder="tu.direccion@mail.com.ar">
+              <input type="email" class="form-control" id="InputMail" placeholder="tu.direccion@mail.com.ar">
             </div>
             <div class="form-group col-6">
                 <label for="InputTel">Teléfono</label>
-                <input type="text" class="form-control" id="InputTel" placeholder="11 3333 3333">
+                <input type="tel" class="form-control" id="InputTel" placeholder="11 3333 3333">
             </div>
             <div class="form-group col-6">
                 <label for="Invitados">Cantidad de Invitados</label>
-                <input type="text" class="form-control" id="Invitados" placeholder="50">
+                <input type="number" class="form-control" id="Invitados" placeholder="50">
             </div>
             <div class="form-group col-6">
                 <label for="Evento">Tipo de evento:</label>
-                <select class="form-control">
-                    <option>Cumpleaños</option>
-                    <option>Eventos empresariales</option>
-                    <option>Otro</option>
-                  </select>
+                <select id="Evento" name="tipoEvento" class="form-control">
+                    <option value="" disabled selected>Seleccione una opción</option>
+                    <option value ="cumpleanios">Cumpleaños</option>
+                    <option value ="empresariales">Eventos empresariales</option>
+                    <option value ="otro">Otro</option>
+                </select>
             </div>
             <div class="form-group col-12">
                   <label for="DetallePedido">Detalle del pedido</label>
@@ -124,7 +125,18 @@
       </section>
       <section id="trabaja" class="container sumate-equipo">
         <h2>TRABAJÁ CON NOSOTROS</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam reiciendis voluptate magni debitis perspiciatis vel, odit tempora aspernatur eveniet in, a ut vitae quas dicta exercitationem nulla ex fuga nihil!</p>
+        <p>
+            ¿Te apasiona la gastronomía y el servicio al cliente? ¿Querés formar parte de un equipo dinámico y profesional que crea experiencias inolvidables en cada evento?
+            En Imperial Catering, estamos buscando personas comprometidas, responsables y con ganas de crecer para integrar 
+            nuestro equipo.
+            Buscamos perfiles como: Cocineros y ayudantes de cocina, Personal de servicio y atención al cliente, Logística y 
+            apoyo en montaje.
+        </p> 
+        <p>
+            ¿Te gustaría ser parte? Envía tu CV y una breve presentación a mail.catering@gmail.com.ar o contáctanos por WhatsApp al 11 3333 3333.
+        </p>
+
+        <p></p>¡Esperamos conocerte y crecer juntos!</p>
         <div class="datos-contacto justify-content-center">
             <img src="../assets/iconos/i-mail.png" alt="Icono Mail"><p>mail.catering@gmail.com.ar</p> 
         </div>

@@ -1,7 +1,7 @@
 /*BASE*/
 /*MAIN*/
 body {
-  background-image: url("../assets/background-pattern.jpg");
+  background-image: url("../assets/background-pattern2.jpg");
   background-repeat: repeat;
   text-align: center;
   background-attachment: fixed;
@@ -13,10 +13,11 @@ body {
 section {
   margin: 30px 0;
   color: #e4d2ad;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(1, 1, 1, 0.7);
   padding: 40px;
   border: 3px solid transparent;
   border-image: linear-gradient(to right, rgb(223.4285714286, 144.5, 65.5714285714), rgb(160.2857142857, 93.5, 26.7142857143)) 1;
+  border: 4px double rgb(223.4285714286, 144.5, 65.5714285714);
 }
 
 /*PRODUCTO*/
@@ -35,7 +36,9 @@ header {
 }
 
 .carousel-inner {
-  opacity: 0.8;
+  margin-top: 10px;
+  border-top: 4px double rgb(223.4285714286, 144.5, 65.5714285714);
+  border-bottom: 4px double rgb(223.4285714286, 144.5, 65.5714285714);
 }
 
 * {
@@ -259,14 +262,18 @@ a {
   border-radius: 0;
   margin: 4px 0;
   padding: 10px 0;
-  background: linear-gradient(80deg, #eae9e9, white);
+  border-color: transparent;
 }
 .categoriaBoton:hover {
-  background: linear-gradient(to top, #e8e7e7, white);
+  background: linear-gradient(90deg, rgb(138.4285714286, 80.75, 23.0714285714), rgb(227.0714285714, 157.25, 87.4285714286));
+  color: #fff;
+  border-color: rgb(223.4285714286, 144.5, 65.5714285714);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.22);
   transform: none;
 }
 .categoriaBoton h3 {
-  color: #111;
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
 }
 
 .icono a {
@@ -300,7 +307,7 @@ a {
 }
 
 .card {
-  background-color: #e4d2ad;
+  background-color: #fff;
   padding: 5px;
   border-radius: 0px;
   margin: 10px 2px;
@@ -332,26 +339,52 @@ a {
 }
 
 .modal .modal-content {
+  background: rgba(255, 255, 255, 0.96);
   border-radius: 0px;
+  border: 4px double rgb(223.4285714286, 144.5, 65.5714285714);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.22);
+  padding: 10px;
+  font-family: "Dosis";
+  color: #111;
 }
 .modal .head-modal {
-  background-color: #cc7722;
+  background: linear-gradient(90deg, rgb(229.2571428571, 164.9, 100.5428571429), #cc7722);
+  border-bottom: 2px solid rgb(223.4285714286, 144.5, 65.5714285714);
+  padding: 18px 32px;
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #111;
+  font-family: "Titillium Web";
+  border-radius: 12px 12px 0 0;
+  letter-spacing: 1px;
 }
 .modal p {
   text-align: left;
-  color: black;
-  margin-bottom: 0;
+  color: #111;
+  margin-bottom: 1.2rem;
+  font-size: 1.08rem;
+  line-height: 1.7;
+  font-family: "Dosis";
 }
-.modal h3 {
-  font-weight: 400;
+.modal h4 {
+  font-weight: 700;
+  color: #111;
+  font-size: 1.25rem;
+  font-family: "Titillium Web";
 }
 .modal .imagen-modal {
-  border: 1px solid #111;
-  padding: 0;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 0px;
+  width: 100%;
+  min-height: 300px;
 }
 .modal .imagen-modal img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+  display: block;
 }
 
 /*FOOTER*/
@@ -407,6 +440,11 @@ footer {
 }
 .navbar-toggler {
   border-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
 }
 .navbar-toggler:focus {
   box-shadow: none;

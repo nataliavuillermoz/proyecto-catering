@@ -21,9 +21,9 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid d-none d-md-block">
-            <div class="row align-items-center">
-                <div class="col icono numero-whatsapp">
+        <div class="container-fluid d-md-block">
+            <div class="row align-items-center justify-content-between">
+                <div class="col icono numero-whatsapp d-none d-md-flex">
                     <a href="">
                         <img src="./assets/iconos/i-whatsapp.png" alt="Icono Whatsapp">
                     </a>
@@ -34,7 +34,7 @@
                         <img src="./assets/logo-modelo-blanco.png" alt="Logo Imperial Catering y Eventos">
                     </a>
                 </div>
-                <div class="col icono">
+                <div class="col icono d-none d-md-flex justify-content-center">
                     <a href="https://www.instagram.com/imperial.cateringok">
                         <img src="./assets/iconos/i-icon.png" alt="Icono instagram">
                     </a>
@@ -48,11 +48,7 @@
             </div>
         </div>
         <nav class="navbar navbar-edit navbar-expand-lg">
-            <div class="container-fluid">
-                <a href="#" class="d-block d-md-none logo-mobile">
-                    <img src="./assets/logo-modelo-blanco.png" alt="Logo Imperial Catering y Eventos">
-                </a>
- 
+            <div class="container-fluid"> 
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -93,7 +89,7 @@
                 <img src="./assets/banner_prueba.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                <img src="https://placehold.co/1200x300" class="d-block w-100" alt="...">
+                <img src="./assets/banner_prueba2.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
                 <img src="https://placehold.co/1200x300" class="d-block w-100" alt="...">
@@ -109,7 +105,7 @@
             </button>
             </div>
         <section class="container quienes-somos">
-                <h1 class="nombre-sitio">IMPERIAL CATERING</h1>
+                <h1 class="nombre-sitio visually-hidden">IMPERIAL CATERING</h1>
                 <h2>¿QUIÉNES SOMOS?</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam repellat porro eius commodi, quaerat non id voluptate quos atque voluptatem. Unde ex repellat consequuntur eos ipsum dolores laboriosam consequatur quis voluptate quos atque voluptatem. Unde ex repellat consequuntur eos ipsum dolores laboriosam consequatur quis.</p>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam repellat porro eius commodi, quaerat non id voluptate quos atque voluptatem. Unde ex repellat consequuntur eos ipsum dolores laboriosam consequatur quis.voluptate quos atque voluptatem. Unde ex repellat consequuntur eos ipsum dolores laboriosam consequatur quis.</p>  
@@ -124,21 +120,21 @@
                 <div class="collapse" id="collapseIslas">
                     <div class="row justify-content-evenly">
                         <div class="col-6 col-md-4">    
-                            <a type="button" class="card" data-bs-toggle="modal" data-bs-target="#exampleModal">  
+                            <a type="button" class="card" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">  
                                 <img src="./assets/islas/isla-campo.png" alt="">
                                 <h4>ISLA DE CAMPO</h4>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </a>
                         </div>
                         <div class="col-6 col-md-4">    
-                            <a type="button" class="card" data-bs-toggle="modal" data-bs-target="#exampleModal">               
+                            <a type="button" class="card" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">               
                                 <img src="./assets/islas/isla-fast-food.png" alt="">
                                 <h4>ISLA FAST FOOD</h4>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                             </a>
                         </div>
                         <div class="col-6 col-md-4">    
-                            <a type="button" class="card" data-bs-toggle="modal" data-bs-target="#exampleModal">               
+                            <a type="button" class="card" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">               
                                 <img src="./assets/islas/isla-mar.png" alt="">
                                 <h4>ISLA FRUTOS DE MAR</h4>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -178,7 +174,7 @@
                     <h3>PROMOCIONES</h3>
                 </button>
                 <div class="collapse" id="collapsePromos">
-                    <div class="card card-body categoriaBoton">
+                    <div class="card card-body">
                     Categoría PROMOCIONES contenido.
                     </div>
                 </div>
@@ -186,7 +182,9 @@
         </section>
         <section class="container presupuesto">
             <h2>PRESUPUESTO PERSONALIZADO</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, earum! Voluptatem, delectus harum voluptas facilis iusto hic accusantium praesentium esse nisi, adipisci vitae, vero dolorem odio blanditiis debitis. Quidem, illum!</p>
+            <p>¿Tenés un cumpleaños, casamiento o reunión importante?
+            ¡Contanos tu idea y nosotros te enviamos un presupuesto sin compromiso!
+            Nos encanta hacer que tus momentos especiales sean inolvidables.</p>
             <a class="btn-general" href="./pages/contacto.html">PEDÍ TU PRESUPUESTO</a>
         </section>
     </main>
@@ -232,33 +230,26 @@
         </div>
     </footer>
 
-    <!--MODAL-->
   
-  <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="head-modal row">
-                    <div class="col-11 nombre-modal text-left">
-                        <h4 class="text-left">ISLAS FINGER FOOD</h4> 
-                    </div>
-                    <div class="col-1">
-                        <a>X</a>
-                    </div>
-                </div>
-                <div class="modal-body row">
-                    <div class="col-4 imagen-modal">
-                        <img src="../assets/islas/isla-fast-food.png" alt="Islas Fast Food">
-                    </div>
-                    <div class="col-8 text-left">
-                        <p><span>DESCRIPCIÓN DEL PRODUCTO</span></p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi quam dolores repellat perferendis quod, provident id harum.</p>
-                    </div>
-                </div>
-            </div>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="exampleModalCenterTitle">ISLA FRUTOS DE MAR CAZUELA</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body row justify-content-between">
+        <div class="col imagen-modal">
+            <img class="img-modal" src="./assets/islas/isla-campo.png" alt="">
         </div>
+        <div class="col">
+            <p>Descripción del producto. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, adipisci, necessitatibus doloremque quas excepturi debitis accusantium, aliquam earum aspernatur tempora minus neque incidunt sapiente blanditiis doloribus culpa alias totam architecto.</p>
+        </div>
+        
+      </div>
     </div>
-    <!-- fin MODAL-->
+  </div>
+</div>
 
 
     <!--BOOTSTRAP JS-->
