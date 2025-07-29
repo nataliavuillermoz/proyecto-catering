@@ -1,15 +1,18 @@
 @use "../utilities/maps" as *;
 
-/*BOTONES y ENLACES*/
-a{
+/* ===================
+   BOTONES Y ENLACES
+   =================== */
+a {
+    font-family: map-get($font-styles, parrafos);
     text-decoration: none;
     color: #fff;
 }
 
 .btn-general {
-    background: linear-gradient(90deg, lighten(map-get($colors, primario), 10%), darken(map-get($colors, primario), 10%));
-    color: #ffffff;
-    border: 1px solid #dadada;
+    background: linear-gradient(90deg, lighten(map-get($colors, primario), 10%), darken(map-get($colors, cuaternario), 10%));
+    color: #fff;
+    border: 1px solid map-get($colors, blanco);
     border-radius: 30px;
     padding: 8px 24px;
     font-size: 1.1rem;
@@ -19,97 +22,103 @@ a{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease-in-out;
     cursor: pointer;
+    text-shadow: 1px 1px 4px rgba(0,0,2,1);
 }
 
 .btn-general:hover {
-    background: linear-gradient(90deg, darken(map-get($colors, primario), 10%), lighten(map-get($colors, primario), 10%));
-    color: #ffffff;
+    background: linear-gradient(90deg, darken(map-get($colors, cuaternario), 10%), lighten(map-get($colors, primario), 10%));
+    color: #fff;
     border-color: #c9a66b;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
     transform: translateY(-2px) scale(1.05);
+    text-shadow: 1px 1px 6px rgba(0,0,2,1);
 }
 
-.categoriaBoton{
-    @extend.btn-general;
+.categoriaBoton {
+    @extend .btn-general;
     border-radius: 0;
     margin: 4px 0;
     padding: 10px 0;
     border-color: transparent;
+    font-family: map-get($font-styles, titulos);
+    text-shadow: 0 1px 4px rgba(0,0,0,0.18);
+
     &:hover {
-        background: linear-gradient(90deg, darken(map-get($colors, primario), 15%), lighten(map-get($colors, primario), 15%));
-        color: #fff;
-        border-color: lighten(map-get($colors, primario), 10%);
+        background: linear-gradient(90deg, darken(map-get($colors, primario), 15%), lighten(map-get($colors, cuaternario), 15%));
+        color: map-get($colors, blanco);
+        border-color: lighten(map-get($colors, blanco), 5%);
         box-shadow: 0 6px 16px rgba(0,0,0,0.22);
         transform: none;
+        border-left: 0;
+        border-right: 0;
     }
+
     h3 {
         color: #fff;
         text-shadow: 0 1px 4px rgba(0,0,0,0.18);
     }
 }
 
-.icono{
-    a{
+/* ===================
+   ÍCONOS EN HEADER/FOOTER
+   =================== */
+.icono {
+    a {
         padding: 5px;
         text-decoration: none;
         opacity: 0.9;
-        p{
+
+        p {
             margin-bottom: 0;
         }
-        img{
+
+        img {
             max-width: 26px;
-            &:hover{
+            transition: transform 0.2s ease-in-out;
+            &:hover {
                 transform: scale(1.1);
-                transition: transform 0.2s ease-in-out;
                 opacity: 1;
             }
         }
-    }        
-
+    }
 }
 
-.link-whatsapp{
+/* ===================
+   BOTÓN FLOTANTE DE WHATSAPP
+   =================== */
+.link-whatsapp {
     position: fixed;
     bottom: 30px;
     right: 30px;
-        img{
-            width: 50px;
-        }
-        &:hover{
-            transform: scale(1.2);
-            transition: transform 0.3s ease-in-out;
-        }
+
+    img {
+        width: 50px;
+    }
+
+    &:hover {
+        transform: scale(1.2);
+        transition: transform 0.3s ease-in-out;
+    }
 }
 
-.card{
-    background-color: #fff;
-    padding: 5px;
-    border-radius: 0px;
-    margin: 10px 2px;
-    h4{
-        color: map-get($colors, primario );
-        padding: 4px 0;
-    }
-    &:hover{
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-        transform: translateY(-1px) scale(1.02);
-        color: map-get($colors, primario );
-        transition: 0.2s ease-in-out;
-    }
-    
-}
-
+/* ===================
+   BOTÓN ESPECIAL: TRABAJÁ CON NOSOTROS
+   =================== */
 .trabaja-con-nosotros {
     @extend .btn-general;
-    background: #ffffff;
+    background: map-get($colors, blanco);
     color: map-get($colors, negro);
     border: 1px solid map-get($colors, negro);
-    border-radius: 0px;
-    font-size: map-get($font-sizes,s);
+    border-radius: 0;
+    font-size: map-get($font-sizes, s);
+    text-shadow: none;
+
     &:hover {
-        background: linear-gradient(to top, lighten(#e8e7e7, 0%), lighten(map-get($colors, primario), 80%));        transform: none;
+        background: linear-gradient(to top, lighten(map-get($colors, blanco), 0%), lighten(map-get($colors, primario), 80%));
         color: #111;
-        border-color: map-get($colors, primario);
+        border-color: map-get($colors, negro);
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        text-shadow: none;
+        transform: none;
     }
 }

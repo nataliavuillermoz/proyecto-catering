@@ -1,50 +1,90 @@
 @use "../utilities/maps" as *;
 
-/*MAIN*/
+/* ===================
+   MAIN
+   =================== */
 
-body{
+body {
     background-image: url("../assets/background-pattern2.jpg");
     background-repeat: repeat;
     text-align: center;
     background-attachment: fixed;
     color: #fff;
-    font-family: map-get($font-styles,parrafos);
-    font-size: map-get($font-sizes,m);
+    font-family: map-get($font-styles, parrafos);
+    font-size: map-get($font-sizes, m);
+    text-transform: uppercase;
 }
 
-
-section{
+section {
     margin: 30px 0;
-    color:map-get($colors, blanco);
-    background-color: rgba(1,1,1,0.7);
+    color: map-get($colors, blanco);
+    background-color: rgba(1, 1, 1, 0.7);
     padding: 40px;
-    border: 3px solid transparent; // Necesario para que el degradado funcione
-    border-image: linear-gradient(to right, lighten(map-get($colors, primario), 10%), darken(map-get($colors, primario), 10%)) 1;
- border: 4px double lighten(map-get($colors, primario), 10%);
-    
+    border: 4px double lighten(map-get($colors, primario), 10%);
+    // Si quieres un gradiente, usa solo border-image, no ambos
+    // border-image: linear-gradient(to right, lighten(map-get($colors, primario), 10%), darken(map-get($colors, primario), 10%)) 1;
 }
 
-/*PRODUCTO*/
+/* ===================
+   HEADER & COMPONENTS
+   =================== */
 
-
-header{
-    background-color: rgba(256,256,256,0.1);
+header {
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
-.numero-whatsapp{
-    p{
-        margin-bottom: 0;
-    }
+.numero-whatsapp {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
+    p {
+        margin-bottom: 0;
+    }
 }
 
-.carousel-inner{
+.carousel-inner {
     margin-top: 10px;
     border-top: 4px double lighten(map-get($colors, primario), 10%);
     border-bottom: 4px double lighten(map-get($colors, primario), 10%);
-
 }
 
+.color-primario {
+    color: map-get($colors, primario);
+}
+
+.minuscula {
+    text-transform: lowercase;
+}
+
+/* ===================
+   SECTIONS
+   =================== */
+
+.quienes-somos {
+  p {
+    text-align: center;
+    line-height: 1.3;
+    padding: 5px 2px;
+    font-size: map-get($font-sizes, s);
+    margin-bottom: 2px;
+  }
+  img {
+    max-width: 80%;
+  }
+}
+
+.sumate-equipo p {
+    text-align: center;
+    padding: 0 30px;
+}
+
+/* ===================
+   UTILS
+   =================== */
+
+span {
+    color: map-get($colors, primario);
+    font-weight: 700;
+}

@@ -1,26 +1,30 @@
+@charset "UTF-8";
 /*BASE*/
-/*MAIN*/
+/* ===================
+   MAIN
+   =================== */
 body {
   background-image: url("../assets/background-pattern2.jpg");
   background-repeat: repeat;
   text-align: center;
   background-attachment: fixed;
   color: #fff;
-  font-family: "Dosis";
-  font-size: 1.1rem;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  text-transform: uppercase;
 }
 
 section {
   margin: 30px 0;
-  color: #e4d2ad;
+  color: #F6F1EB;
   background-color: rgba(1, 1, 1, 0.7);
   padding: 40px;
-  border: 3px solid transparent;
-  border-image: linear-gradient(to right, rgb(223.4285714286, 144.5, 65.5714285714), rgb(160.2857142857, 93.5, 26.7142857143)) 1;
-  border: 4px double rgb(223.4285714286, 144.5, 65.5714285714);
+  border: 4px double rgb(205.4488188976, 165.4881889764, 101.5511811024);
 }
 
-/*PRODUCTO*/
+/* ===================
+   HEADER & COMPONENTS
+   =================== */
 header {
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -37,8 +41,43 @@ header {
 
 .carousel-inner {
   margin-top: 10px;
-  border-top: 4px double rgb(223.4285714286, 144.5, 65.5714285714);
-  border-bottom: 4px double rgb(223.4285714286, 144.5, 65.5714285714);
+  border-top: 4px double rgb(205.4488188976, 165.4881889764, 101.5511811024);
+  border-bottom: 4px double rgb(205.4488188976, 165.4881889764, 101.5511811024);
+}
+
+.color-primario {
+  color: #C18F3F;
+}
+
+.minuscula {
+  text-transform: lowercase;
+}
+
+/* ===================
+   SECTIONS
+   =================== */
+.quienes-somos p {
+  text-align: center;
+  line-height: 1.3;
+  padding: 5px 2px;
+  font-size: 0.9rem;
+  margin-bottom: 2px;
+}
+.quienes-somos img {
+  max-width: 80%;
+}
+
+.sumate-equipo p {
+  text-align: center;
+  padding: 0 30px;
+}
+
+/* ===================
+   UTILS
+   =================== */
+span {
+  color: #C18F3F;
+  font-weight: 700;
 }
 
 * {
@@ -48,80 +87,37 @@ header {
 }
 
 /*UTILITIES*/
-.titillium-web-extralight {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 200;
+/* ===================
+   FUENTES PERSONALIZADAS
+   =================== */
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
   font-style: normal;
 }
 
-.titillium-web-light {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 300;
+.lora {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
   font-style: normal;
 }
 
-.titillium-web-regular {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 400;
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
   font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
-.titillium-web-semibold {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.titillium-web-bold {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.titillium-web-black {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.titillium-web-extralight-italic {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.titillium-web-light-italic {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.titillium-web-regular-italic {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.titillium-web-semibold-italic {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.titillium-web-bold-italic {
-  font-family: "Titillium Web", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
+/* ===================
+   ESTILOS GENERALES DE TEXTO
+   =================== */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Titillium Web";
-  font-size: 1.7rem;
+  font-family: "Playfair Display";
   margin-bottom: 0;
 }
 
 h1 {
-  font-family: Jost;
   font-weight: 400;
   font-size: 2rem;
   background-color: #fff;
@@ -131,21 +127,28 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-weight: 700;
   color: #fff;
 }
 
 h3 {
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 500;
   color: antiquewhite;
 }
 
 h4 {
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 500;
   color: antiquewhite;
+}
+
+p {
+  font-family: "Open Sans";
+  line-height: 1.3;
+}
+
+a {
+  font-family: "Lora";
 }
 
 .atrib {
@@ -153,7 +156,9 @@ h4 {
 }
 
 /*COMPONENTS*/
-/*HEADER*/
+/* ===================
+   HEADER
+   =================== */
 .numero-whatsapp p {
   display: inline;
 }
@@ -171,74 +176,110 @@ h4 {
   max-width: 120px;
 }
 
+/* ===================
+   FORMULARIO DE CONTACTO
+   =================== */
 .form-group {
   text-align: left;
 }
 .form-group label {
   margin-left: 5px;
 }
+.form-group input,
+.form-group select,
+.form-group textarea {
+  background-color: rgba(246, 241, 235, 0.9);
+  border: none;
+}
 .form-group input::placeholder {
-  color: gray;
-  opacity: 0.7;
+  color: #2B2B2B;
+  opacity: 0.4;
 }
 
+/* ===================
+   DATOS DE CONTACTO
+   =================== */
 .datos-contacto {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 6px;
 }
 .datos-contacto img {
-  width: 24px;
+  width: 20px;
 }
 .datos-contacto p {
   margin-left: 5px;
   margin-bottom: 0;
+  line-height: 1.2;
+  font-size: 1rem;
+}
+.datos-contacto a {
+  font-family: "Open Sans";
+  font-size: 1rem;
+}
+.datos-contacto:hover {
+  text-decoration: none;
+  color: #C18F3F;
+  opacity: 0.8;
 }
 
-.mapa {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  text-align: right;
+.direccion {
+  margin-bottom: 5px;
+  font-size: 1rem;
+  letter-spacing: 2px;
 }
 
-/*NAVBAR*/
+/* ===================
+   MAPA
+   =================== */
+iframe {
+  width: 100%;
+}
+
+/* ===================
+   NAVBAR
+   =================== */
 .navbar-edit {
-  background: linear-gradient(90deg, rgb(223.4285714286, 144.5, 65.5714285714), rgb(160.2857142857, 93.5, 26.7142857143));
+  background: linear-gradient(90deg, rgb(205.4488188976, 165.4881889764, 101.5511811024), rgb(103.7563451777, 72.6294416244, 42.2436548223));
   color: white;
   padding: 5px 2x;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Open Sans";
   box-shadow: 0 2px 6px rgba(50, 50, 50, 0.15);
 }
 .navbar-edit .nav-link {
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-family: "Open Sans";
   padding: 0;
-  color: #111;
+  color: white;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.2s ease-in-out, border-bottom 0.2s;
   opacity: 0.8;
 }
 .navbar-edit .nav-link:hover {
-  color: #ffe5b4;
+  color: #F6F1EB;
   opacity: 1;
 }
 .navbar-edit .nav-link.active {
-  color: #fff;
+  color: #F6F1EB;
   opacity: 1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-/*BOTONES y ENLACES*/
+/* ===================
+   BOTONES Y ENLACES
+   =================== */
 a {
+  font-family: "Open Sans";
   text-decoration: none;
   color: #fff;
 }
 
 .btn-general, .trabaja-con-nosotros, .categoriaBoton {
-  background: linear-gradient(90deg, rgb(223.4285714286, 144.5, 65.5714285714), rgb(160.2857142857, 93.5, 26.7142857143));
-  color: #ffffff;
-  border: 1px solid #dadada;
+  background: linear-gradient(90deg, rgb(205.4488188976, 165.4881889764, 101.5511811024), rgb(103.7563451777, 72.6294416244, 42.2436548223));
+  color: #fff;
+  border: 1px solid #F6F1EB;
   border-radius: 30px;
   padding: 8px 24px;
   font-size: 1.1rem;
@@ -248,14 +289,16 @@ a {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   transition: all 0.3s ease-in-out;
   cursor: pointer;
+  text-shadow: 1px 1px 4px rgb(0, 0, 2);
 }
 
 .btn-general:hover, .trabaja-con-nosotros:hover, .categoriaBoton:hover {
-  background: linear-gradient(90deg, rgb(160.2857142857, 93.5, 26.7142857143), rgb(223.4285714286, 144.5, 65.5714285714));
-  color: #ffffff;
+  background: linear-gradient(90deg, rgb(103.7563451777, 72.6294416244, 42.2436548223), rgb(205.4488188976, 165.4881889764, 101.5511811024));
+  color: #fff;
   border-color: #c9a66b;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
   transform: translateY(-2px) scale(1.05);
+  text-shadow: 1px 1px 6px rgb(0, 0, 2);
 }
 
 .categoriaBoton {
@@ -263,19 +306,26 @@ a {
   margin: 4px 0;
   padding: 10px 0;
   border-color: transparent;
+  font-family: "Playfair Display";
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
 }
 .categoriaBoton:hover {
-  background: linear-gradient(90deg, rgb(138.4285714286, 80.75, 23.0714285714), rgb(227.0714285714, 157.25, 87.4285714286));
-  color: #fff;
-  border-color: rgb(223.4285714286, 144.5, 65.5714285714);
+  background: linear-gradient(90deg, rgb(135.6850393701, 100.3503937008, 43.8149606299), rgb(186.5710659898, 136.1497461929, 86.9289340102));
+  color: #F6F1EB;
+  border-color: rgb(253.9137931034, 253.3103448276, 252.5862068966);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.22);
   transform: none;
+  border-left: 0;
+  border-right: 0;
 }
 .categoriaBoton h3 {
   color: #fff;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
 }
 
+/* ===================
+   ÍCONOS EN HEADER/FOOTER
+   =================== */
 .icono a {
   padding: 5px;
   text-decoration: none;
@@ -286,13 +336,16 @@ a {
 }
 .icono a img {
   max-width: 26px;
+  transition: transform 0.2s ease-in-out;
 }
 .icono a img:hover {
   transform: scale(1.1);
-  transition: transform 0.2s ease-in-out;
   opacity: 1;
 }
 
+/* ===================
+   BOTÓN FLOTANTE DE WHATSAPP
+   =================== */
 .link-whatsapp {
   position: fixed;
   bottom: 30px;
@@ -306,107 +359,154 @@ a {
   transition: transform 0.3s ease-in-out;
 }
 
-.card {
-  background-color: #fff;
-  padding: 5px;
-  border-radius: 0px;
-  margin: 10px 2px;
-}
-.card h4 {
-  color: #cc7722;
-  padding: 4px 0;
-}
-.card:hover {
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-  transform: translateY(-1px) scale(1.02);
-  color: #cc7722;
-  transition: 0.2s ease-in-out;
-}
-
+/* ===================
+   BOTÓN ESPECIAL: TRABAJÁ CON NOSOTROS
+   =================== */
 .trabaja-con-nosotros {
-  background: #ffffff;
+  background: #F6F1EB;
   color: #111;
   border: 1px solid #111;
-  border-radius: 0px;
+  border-radius: 0;
   font-size: 0.9rem;
+  text-shadow: none;
 }
 .trabaja-con-nosotros:hover {
-  background: linear-gradient(to top, #e8e7e7, white);
-  transform: none;
+  background: linear-gradient(to top, #f6f1eb, white);
   color: #111;
-  border-color: #cc7722;
+  border-color: #111;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  text-shadow: none;
+  transform: none;
 }
 
-.modal .modal-content {
-  background: rgba(255, 255, 255, 0.96);
-  border-radius: 0px;
-  border: 4px double rgb(223.4285714286, 144.5, 65.5714285714);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.22);
-  padding: 10px;
-  font-family: "Dosis";
-  color: #111;
+/* ===================
+   MODAL
+   =================== */
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
-.modal .head-modal {
-  background: linear-gradient(90deg, rgb(229.2571428571, 164.9, 100.5428571429), #cc7722);
-  border-bottom: 2px solid rgb(223.4285714286, 144.5, 65.5714285714);
-  padding: 18px 32px;
-  font-size: 1.35rem;
-  font-weight: 600;
-  color: #111;
-  font-family: "Titillium Web";
-  border-radius: 12px 12px 0 0;
-  letter-spacing: 1px;
+.modal-header {
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
-.modal p {
-  text-align: left;
-  color: #111;
-  margin-bottom: 1.2rem;
-  font-size: 1.08rem;
-  line-height: 1.7;
-  font-family: "Dosis";
+
+.animate-modal-fadein {
+  animation: modalFadeIn 0.4s ease forwards;
 }
-.modal h4 {
+
+.bg-gradient {
+  background: linear-gradient(45deg, #C18F3F, #8C6239);
+}
+
+.btn-gradient {
+  background: linear-gradient(45deg, #C18F3F, #8C6239);
+  border: none;
+  color: #F6F1EB;
   font-weight: 700;
-  color: #111;
-  font-size: 1.25rem;
-  font-family: "Titillium Web";
-}
-.modal .imagen-modal {
-  background: rgba(255, 255, 255, 0.07);
-  border-radius: 0px;
-  width: 100%;
-  min-height: 300px;
-}
-.modal .imagen-modal img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 6px;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
-  display: block;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.18);
+  transition: all 0.3s ease;
+  padding: 12px 30px;
 }
 
-/*FOOTER*/
+.btn-gradient:hover {
+  background: linear-gradient(45deg, #8C6239, #C18F3F);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.22);
+  transform: scale(1.05);
+}
+
+.modal-content {
+  background: rgba(217, 196, 160, 0.98);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.18);
+  overflow: hidden;
+  color: #F6F1EB;
+  font-family: "Open Sans";
+  border-radius: 0;
+  border: 2px double white;
+  min-height: 400px;
+}
+.modal-content a {
+  font-weight: 400;
+}
+
+.modalImagen {
+  object-fit: cover;
+  border-radius: 1.5rem;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
+}
+
+.modalTitulo {
+  font-family: "Playfair Display";
+  font-size: 2rem;
+  letter-spacing: 1.2px;
+  color: rgba(140, 98, 57, 0.98);
+  margin-bottom: 2px;
+  padding-bottom: 2px;
+}
+
+.modalDescripcion {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  line-height: 1.3;
+  margin-top: 10px;
+  opacity: 0.85;
+  color: #111;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.ico {
+  max-width: 30px;
+}
+
+/* ===================
+   FOOTER
+   =================== */
 footer {
   color: #111;
 }
 
 .footer-superior {
-  background: linear-gradient(to bottom, #cc7722 0%, #b06c1d 100%);
-  color: white;
-  padding: 30px 5x;
-  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(to bottom, #C18F3F 0%, #8C6239 100%);
+  color: #D9C4A0;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-  padding: 20px 10px;
+  padding: 2px 10px;
+  font-family: "Open Sans";
 }
 
 .footer-inferior {
-  background-color: #f5f1e1;
+  background-color: #D9C4A0;
+  color: #8C6239;
   padding: 20px 0;
 }
 .footer-inferior img {
   opacity: 0.8;
+  margin-bottom: 10px;
+}
+.footer-inferior p {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.medios-pago {
+  opacity: 1;
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+.medios-pago p {
+  font-size: 10px;
+  margin-bottom: 0;
+  padding: 10px 0 0 0;
 }
 
 .copyright {
@@ -417,12 +517,53 @@ footer {
   color: #fff;
   font-size: 0.6rem;
   padding: 2px 0;
+  text-transform: capitalize;
+}
+
+/* ===================
+   CATEGORIAS Y PRODUCTOS
+   =================== */
+.grupo-categorias {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 33.33%), 1fr));
+  gap: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card {
+  background-color: #F6F1EB;
+  padding: 5px;
+  border-radius: 0;
+  height: 100%;
+}
+.card h4 {
+  color: #8C6239;
+  padding: 4px 0;
+}
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-1px) scale(1.01);
+  transition: 0.25s ease-in-out;
+}
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+.card p {
+  margin-bottom: 0;
+}
+
+.card-body {
+  color: #111;
 }
 
 @media (max-width: 1000px) {
   .nav-item {
-    font-size: 14px;
-    margin-bottom: 5px;
+    font-size: 1rem;
+    margin-bottom: 10px;
   }
   .nombre-sitio {
     display: none;

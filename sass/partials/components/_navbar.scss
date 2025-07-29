@@ -1,27 +1,35 @@
 @use "../utilities/maps" as *;
 
-/*NAVBAR*/
-.navbar-edit{
-    background: linear-gradient(90deg, lighten(map-get($colors, primario), 10%), darken(map-get($colors, primario), 10%)); // Degradado basado en el color primario
+/* ===================
+   NAVBAR
+   =================== */
+
+.navbar-edit {
+    background: linear-gradient(90deg, lighten(map-get($colors, primario), 10%), darken(map-get($colors, cuaternario), 10%)); // Degradado basado en el color primario
     color: white;
     padding: 5px 2x;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: map-get($font-styles, parrafos);
     box-shadow: 0 2px 6px rgba(50, 50, 50, 0.15);
-    .nav-link{
-        font-size: map-get($font-sizes, s );
+
+    .nav-link {
+        font-size: map-get($font-sizes, m);
+        font-family: map-get($font-styles, parrafos);
         padding: 0;
-        color: #111;
+        color: white;
         text-decoration: none;
         font-weight: 500;
         transition: color 0.2s ease-in-out, border-bottom 0.2s;
         opacity: 0.8;
-        &:hover{
-            color: #ffe5b4;
+
+        &:hover {
+            color: map-get($colors, blanco);
             opacity: 1;
         }
     }
-    .nav-link.active{
-        color: #fff;
+
+    .nav-link.active {
+        color: map-get($colors, blanco);
         opacity: 1;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     }
 }

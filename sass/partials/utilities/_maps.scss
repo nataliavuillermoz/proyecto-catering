@@ -1,22 +1,24 @@
 $colors: (
-    primario:#cc7722,
-    contraste:#444448,
-    terciario:#e4d2ad,
-    negro:#111,
-    blanco:#e4d2ad,
-    border:#111,
+    primario: #C18F3F,
+    contraste: #2B2B2B,
+    terciario: #D9C4A0,
+    cuaternario: #8C6239,
+    negro: #111,
+    blanco: #F6F1EB,
+    border: #111,
     shadow: #777
 );
 
 $font-sizes: (
-    xs:0.6rem,
-    s:0.9rem,
-    m:1.1rem,
-    l:1.7rem,
-    xl:2rem
+    xs: 0.6rem,
+    s: 0.9rem,
+    m: 1rem,
+    l: 1.7rem,
+    xl: 2rem
 );
 
 $font-styles: (
-    titulos:"Titillium Web",
-    parrafos: "Dosis",
+    titulos: "Playfair Display",
+    resaltado: "Lora",
+    parrafos: "Open Sans"
 );

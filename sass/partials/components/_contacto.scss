@@ -1,33 +1,70 @@
-.form-group{
+@use "../utilities/maps" as *;
+
+/* ===================
+   FORMULARIO DE CONTACTO
+   =================== */
+.form-group {
     text-align: left;
-    label{
+
+    label {
         margin-left: 5px;
     }
-    input::placeholder{
-        color: gray;
-        opacity: 0.7;
+
+    input,
+    select,
+    textarea {
+        background-color: rgba(map-get($colors, blanco), 0.9);
+        border: none;
     }
-    
+
+    input::placeholder {
+        color: map-get($colors, contraste);
+        opacity: 0.4;
+    }
 }
 
-.datos-contacto{
+/* ===================
+   DATOS DE CONTACTO
+   =================== */
+.datos-contacto {
     display: flex;
     flex-direction: row;
     align-items: center;
-    img{
-        width: 24px;
+    padding: 6px;
+
+    img {
+        width: 20px;
     }
-    p{
+
+    p {
         margin-left: 5px;
         margin-bottom: 0;
+        line-height: 1.2;
+        font-size: map-get($font-sizes, m);
     }
 
+    a {
+        font-family: map-get($font-styles, parrafos);
+        font-size: map-get($font-sizes, m);
+    }
+
+    &:hover {
+        text-decoration: none;
+        color: map-get($colors, primario);
+        opacity: 0.8;
+    }
 }
 
-.mapa{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    text-align: right;
+.direccion {
+    margin-bottom: 5px;
+    font-size: map-get($font-sizes, m);
+    letter-spacing: 2px;
+}
+
+/* ===================
+   MAPA
+   =================== */
+
+iframe{
+    width: 100%;
 }
