@@ -4,49 +4,49 @@
         "nombre": "Osobuco Braseado con Puré de Papas Rústicas",
         "subtitulo": "(Guarnición a elección)",
         "descripcion": "Clásico y sabroso plato de cocción lenta, acompañado de un puré rústico que realza su sabor. <strong>Incluye guarnición a elección</strong> para completar una experiencia cálida y reconfortante.",
-        "imagen": "assets/platos-principales/osobuco.jpg"
+        "imagen": "assets/platos-principales/osobuco.JPG"
     },
     {
         "categoria": "platosPrincipales",
         "nombre": "Milanesa Napolitana con Papas Fritas",
         "subtitulo": "(Guarnición a elección)",
         "descripcion": "Clásica milanesa napolitana, acompañada de papas fritas crujientes. <strong>Incluye guarnición a elección</strong> para complementar este delicioso plato.",
-        "imagen": "assets/platos-principales/milanesa.jpg"
+        "imagen": "assets/platos-principales/milanesa.JPG"
     },
     {
         "categoria": "platosPrincipales",
         "nombre": "Ojo de Bife con verduras grilladas y timbal de arroz pillaw",
         "subtitulo": "(Guarnición a elección)",
         "descripcion": "Jugoso ojo de bife a la parrilla, servido con verduras grilladas y un timbal de arroz pillaw. <strong>Incluye guarnición a elección</strong> para una comida completa y satisfactoria.",
-        "imagen": "assets/platos-principales/ojo-de-bife.jpg"
+        "imagen": "assets/platos-principales/ojo-de-bife.JPG"
     },
     {
         "categoria": "platosPrincipales",
         "nombre": "Bondiola con batatas y arroz al curry",
         "subtitulo": "(Guarnición a elección)",
         "descripcion": "Jugosa bondiola de cerdo, acompañada de batatas horneadas o fritas y un aromático arroz al curry. <strong>Incluye guarnición a elección</strong> para una experiencia de sabor única.",
-        "imagen": "assets/platos-principales/bondiola.jpg"
+        "imagen": "assets/platos-principales/bondiola.JPG"
     },
     {
         "categoria": "platosPrincipales",
         "nombre": "Asado a la estaca con mix de verdes",
         "subtitulo": "Incluye ensalada rusa y papas rústicas",
         "descripcion": "Asado a la estaca, tierno y jugoso, acompañado de un mix de verdes frescos. Incluye ensalada rusa y papas rústicas para un plato completo y sabroso.",
-        "imagen": "assets/platos-principales/asado-a-la-estaca.jpg"
+        "imagen": "assets/platos-principales/asado-a-la-estaca.JPG"
     },
     {
         "categoria": "platosPrincipales",
         "nombre": "Paella",
         "subtitulo": "",
         "descripcion": "Deliciosa paella con mariscos y pollo, acompañada de una fresca ensalada mixta. Un plato lleno de sabor y color.",
-        "imagen": "assets/platos-principales/paella.jpg"
+        "imagen": "assets/platos-principales/paella.JPG"
     },
     {
         "categoria": "platosPrincipales",
         "nombre": "Risotto con hongos y vegetales",
         "subtitulo": "De pollo o Salmón",
         "descripcion": "Risotto cremoso con hongos y vegetales, disponible en versiones de pollo o salmón. Un plato reconfortante y lleno de sabor.",
-        "imagen": "assets/platos-principales/risotto.jpg"
+        "imagen": "assets/platos-principales/risotto.JPG"
     },
     {
         "categoria": "platosPrincipales",
@@ -60,35 +60,35 @@
         "nombre": "Cazuelas",
         "subtitulo": "Cerdo a la mostaza, Pollo al verdeo o Lomo strogonoff",
         "descripcion": "Cazuelas de cerdo a la mostaza, pollo al verdeo o lomo strogonoff. Tres opciones llenas de sabor.",
-        "imagen": "assets/platos-principales/cazuelas.jpg"
+        "imagen": "assets/platos-principales/cazuelas.JPG"
     },
     {
         "categoria": "platosPrincipales",
         "nombre": "Crepes de Verduras",
         "subtitulo": "Con salsa de cabutia",
         "descripcion": "Deliciosos crepes rellenos de verduras, acompañados de una suave salsa de cabutia. Un plato ligero y lleno de sabor.",
-        "imagen": "assets/platos-principales/crepes.jpg"
+        "imagen": "assets/platos-principales/crepes.JPG"
     },
     {
         "categoria": "recepciones",
         "nombre": "Recepción clásica",
         "subtitulo": "Recepción fría + Recepción caliente + Islas de Tacos y Pernil",
         "descripcion": "<p><strong>Recepción fría:</strong> Hummus de remolacha y cúrcuma, Brusquetas Variedad x2, Pletzalej Pastrón y quesos. Pampita con pollo o cerdo y mayonesa de alcaparras.</p><p><strong>Caliente:</strong> Empanadas fritas, escalopes de espinaca o acelga, pinchos de pollo, carne, Bastoncitos de muzarella, pollo crispy.</p><p><strong>Incluye Islas de Tacos y Pernil.</strong></p>",
-        "imagen": "assets/recepciones/clasica.jpg"
+        "imagen": "assets/recepciones/clasica.JPG"
     },
     {
         "categoria": "recepciones",
         "nombre": "Recepción medium",
         "subtitulo": "Recepción fría medium + Recepción caliente medium + Islas de Tacos, Pernil, Mini hamburguesas, Ribs de cerdo y pastas",
         "descripcion": "<p><strong>Recepción fría:</strong> Hummus de remolacha y cúrcuma, Brusquetas, Pletzalej de Pastrón y quesos, Pampita con pollo o cerdo con mayonesa de alcaparras, arrollado de pollo, Sandwich de Miga, Guacamole, Tabla de fiambres.</p><p><strong>Recepción Caliente:</strong> Empanadas fritas, escalopes de espinaca o acelga, pinchos de pollo y carne, albóndigas de carne, salsa BBQ, pollo crispy.</p><p><strong>Incluye Islas de Tacos, Pernil, Mini hamburguesas, Ribs de cerdo, pastas.</strong></p>",
-        "imagen": "assets/recepciones/medium.jpg"
+        "imagen": "assets/recepciones/medium.JPG"
     },
     {
         "categoria": "recepciones",
         "nombre": "Recepción premium",
         "subtitulo": "Recepción fría premium + Recepción caliente premium + Islas de Tacos y Pernil",
         "descripcion": "<p><strong>Recepción Fría:</strong> Sandwich de miga, matambre casero, arrollado de pollo, hummus de remolacha y cúrcuma, guacamole, pretzalej de pastrón y quesos, pampita de cerdo o pollo con mayonesa de alcaparras, bruschetas, tablas de fiambres, sushi.</p><p><strong>Recepción Caliente:</strong> Empanadas fritas, escalopes de espinaca o acelga, pinchos de pollo, carne o cerdo, albóndigas de carne con salsa BBQ, bastoncitos de muzarella, pinchos de pollo crispy.</p><p><strong>Incluye Islas:</strong> Tacos, pernil, nuggets, mini hamburguesas, ribs de cerdo con salsa BBQ, cazuelas de pastas y humita.</p>",
-        "imagen": "assets/recepciones/premium.jpg"
+        "imagen": "assets/recepciones/premium.JPG"
     },
     {
         "categoria": "islas",
@@ -123,28 +123,28 @@
         "nombre": "PIZZA PARTY",
         "subtitulo": "Variedad de pizzas al corte: muzzarella, jamón y morrones, napolitana, cuatro quesos, y fugazzeta.",
         "descripcion": "<p><strong>VARIEDAD DE PIZZAS:</strong> muzzarella, jamón y morrones, napolitana, cuatro quesos, y fugazzeta.</p><p><strong>Recepción Fría:</strong> Guacamole, Pampita de cerdo o pollo con mayonesa de alcaparras, Pretzalej de pastrón y queso, Sandwich de miga, hummus de remolacha y cúrcuma.</p><p><strong>Recepción Caliente:</strong> Empanadas fritas, albóndigas de carne, salsa BBQ, pinchos de pollo y carne. Pollo crispy.</p><p><strong>Incluye Islas de Tacos, Pernil</strong></p>",
-        "imagen": "assets/pizzas/pizzas.jpg"
+        "imagen": "assets/pizzas/pizzas.JPG"
     },
     {
         "categoria": "guarnicionesSalsas",
         "nombre": "Papas envueltas en panceta",
         "subtitulo": "Papas envueltas en panceta",
         "descripcion": "Papas envueltas en panceta.",
-        "imagen": "assets/guarniciones-salsas/papas-envueltas.jpg"
+        "imagen": "assets/guarniciones-salsas/papas-envueltas.JPG"
     },
     {
         "categoria": "guarnicionesSalsas",
         "nombre": "Verduras grilladas",
         "subtitulo": "Variedad de verduras grilladas",
         "descripcion": "Verduras grilladas. Opción: Envueltas en panceta.",
-        "imagen": "assets/guarniciones-salsas/verduras-grilladas.jpg"
+        "imagen": "assets/guarniciones-salsas/verduras-grilladas.JPG"
     },
     {
         "categoria": "guarnicionesSalsas",
         "nombre": "Milhojas de papas",
         "subtitulo": "Milhojas de papas",
         "descripcion": "Milhojas de papas.",
-        "imagen": "assets/guarniciones-salsas/milhojas-de-papas.jpg"
+        "imagen": "assets/guarniciones-salsas/milhojas-de-papas.JPG"
     },
     {
         "categoria": "guarnicionesSalsas",
@@ -158,49 +158,49 @@
         "nombre": "Papas rústicas",
         "subtitulo": "Papas rústicas",
         "descripcion": "Papas rústicas.",
-        "imagen": "assets/guarniciones-salsas/papas-rusticas.jpg"
+        "imagen": "assets/guarniciones-salsas/papas-rusticas.JPG"
     },
     {
         "categoria": "guarnicionesSalsas",
         "nombre": "Ensalada rusa",
         "subtitulo": "Ensalada rusa",
         "descripcion": "Ensalada rusa.",
-        "imagen": "assets/guarniciones-salsas/ensalada-rusa.jpg"
+        "imagen": "assets/guarniciones-salsas/ensalada-rusa.JPG"
     },
     {
         "categoria": "guarnicionesSalsas",
         "nombre": "Batatas",
         "subtitulo": "Horneadas o fritas",
         "descripcion": "Batatas horneadas o fritas.",
-        "imagen": "assets/guarniciones-salsas/batatas.jpg"
+        "imagen": "assets/guarniciones-salsas/batatas.JPG"
     },
     {
         "categoria": "guarnicionesSalsas",
         "nombre": "Timbal de arroz pillaw",
         "subtitulo": "Timbal de arroz pillaw",
         "descripcion": "Timbal de arroz pillaw.",
-        "imagen": "assets/guarniciones-salsas/arroz-pillaw.jpg"
+        "imagen": "assets/guarniciones-salsas/arroz-pillaw.JPG"
     },
     {
         "categoria": "guarnicionesSalsas",
         "nombre": "Arroz al curry",
         "subtitulo": "Arroz al curry",
         "descripcion": "Arroz al curry.",
-        "imagen": "assets/guarniciones-salsas/arroz-curry.jpg"
+        "imagen": "assets/guarniciones-salsas/arroz-curry.JPG"
     },
     {
         "categoria": "guarnicionesSalsas",
         "nombre": "Puré de boniato de miel",
         "subtitulo": "Puré de boniato de miel y mostaza o caramelizado",
         "descripcion": "Puré de boniato de miel y mostaza o caramelizado.",
-        "imagen": "assets/guarniciones-salsas/pure-boniato.jpg"
+        "imagen": "assets/guarniciones-salsas/pure-boniato.JPG"
     },
     {
         "categoria": "guarnicionesSalsas",
         "nombre": "Papas fritas",
         "subtitulo": "Papas fritas",
         "descripcion": "Papas fritas.",
-        "imagen": "assets/guarniciones-salsas/papas-fritas.jpg"
+        "imagen": "assets/guarniciones-salsas/papas-fritas.JPG"
     },
     {
         "categoria": "guarnicionesSalsas",
